@@ -183,7 +183,7 @@ def configure(ctx):
         print ("Building on win32")
 
         """
-        # compile libgcc and libstd statically when using MinGW
+        # compile libgcc and lzlivibstd statically when using MinGW
         ctx.env.CXXFLAGS = ['-static-libgcc', '-static-libstdc++']
 
         win_path = "packaging/win32_3rdparty"

@@ -1,3 +1,13 @@
+Instructions on compiling with python3 bindings on OS X
+https://github.com/MTG/essentia/blob/master/doc/sphinxdoc/installing.rst
+
+```
+python3 ./waf configure --build-static --with-cpptests --with-examples --with-gaia --mode=debug --with-python --with-vamp -v
+python3 ./waf
+python3 ./waf install
+```
+
+
 Essentia
 ========
 [![Build Status](https://travis-ci.org/MTG/essentia.svg?branch=master)](https://travis-ci.org/MTG/essentia)
